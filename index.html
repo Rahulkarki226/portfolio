@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+      footer {
+       background-color: #333333;
+       color: #ffffff;
+       padding: 20px;
+       text-align: center;
+       }
+
+      footer a {
+          color: #ffffff;
+          text-decoration: none;
+      }
+    </style>
+  </head>
+<body>
+
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="/image/rahul.jpeg" alt="" width="50" height="auto"> 
+      <caption>Rahul Karki </caption>
+    </a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#s">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#p">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#f">Contact me</a>
+        </li>
+        <li class="nav-item">
+          <a href="Rahul_Resume.pdf" class="btn btn-success" download>Resume</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- main -->
+<div class="container-fluid text-white d-flex align-items-center justify-content-center py-5" 
+ style="background-image: url('/image/Background.jpg'); 
+ background-size: cover; 
+ background-position: center; 
+ height: 100vh;">
+    <div>
+        <h1 class="display-4">Hi, It's me RAHUL KARKI</h1>
+        <p class="lead">Let's see how good can you perceive me.</p>
+        <p>Welcome to my site and take a time to know about the skills and educational background.</p>
+    </div>
+</div>
+
+<!-- skills -->
+<section class="my-5" id="s">
+    <div class="py-5">
+      <h2 class="text-center">Technical Skills</h2>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="card">
+            <img class="card-img-top" height="280px" src="/image/Machine.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Machine Learning</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="card">
+            <img class="card-img-top" height="280px" src="/image/coding.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Competitive Programming</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="card">
+            <img class="card-img-top" height="280px" src="/image/web_dev.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Web development</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project -->
+  <section class="my-5" id="p" >
+    <div class="py-5">
+      <h2 class="text-center">Projects</h2>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="card">
+            <img class="card-img-top" height="280px" src="/image/chatwithbooks.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Chat with your PDF</h4>
+              <p class="card-text">This is a simple chat application that allows you to chat with your PDFs.</p>
+              <a href="https://chatwithyourdata-rk.streamlit.app/" class="btn btn-dark" download>Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="card">
+            <img class="card-img-top" height="280px" src="/image/driver drowsiness.png" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Driver drowsiness detection</h4>
+              <p class="card-text">This is a simple application that detects drowsiness using Open CV and Machine Learning.</p>
+              <a href="https://github.com/Rahulkarki226/Driver-Drowsiness-detection" class="btn btn-dark" download>Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="card">
+            <img class="card-img-top" height="280px" src="/image/illnessCattles.jpg" alt="Card image">
+            <div class="card-body">
+              <a href=""></a>
+              <h4 class="card-title">Illness detection of Cattles</h4>
+              <p class="card-text">This is a simple application that detects illness using Convolutional neural network.</p>
+              <a href="https://github.com/Rahulkarki226/ill-animal-classification" class="btn btn-dark" download>Explore</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+  <section class="my-5"  >
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="card">
+            <img class="card-img-top" height="280px" src="/image/botnet.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Botnet Fraud Detection</h4>
+              <p class="card-text">This is a simple application which checks network security from DDOS attack.</p>
+              <a href="https://github.com/Rahulkarki226/Botnet-Fraud-detection" class="btn btn-dark" download>Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="card">
+            <img class="card-img-top" height="280px" src="/image/emailSpam.png" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Email Spam Classification</h4>
+              <p class="card-text">This is a simple application which classifies emails as spam or not.</p>
+              <a href="https://github.com/Rahulkarki226/Email-Spam-Classifier" class="btn btn-dark" download>Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="card">
+            <img class="card-img-top" height="280px" src="/image/illnessCattles.jpg" alt="Card image">
+            <div class="card-body">
+              <a href=""></a>
+              <h4 class="card-title">Book Website</h4>
+              <p class="card-text">This is a simple application which helps you to Explore Ebooks.</p>
+              <a href="https://rahulkarki226.github.io/Book_Website/" class="btn btn-dark" download>Explore</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+  
+
+ <!-- FORM -->
+ <section class="my-5" id="f">
+  <div class="py-5">
+    <h2 class="text-center">Contact us</h2>
+  </div>
+  <div class="w-50 m-auto">
+    <form action="userinfo.php" width="100" method="post">
+      <div class="form-group">
+        <label>Email Id</label>
+        <input type="text" name="email" autocomplete="off" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Mobile no.</label>
+        <input type="text" name="mobile" autocomplete="off" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Comments</label>
+        <textarea class="form-control" name="comments"></textarea>
+      </div>
+      <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+  </div>
+</section>
+
+ <!--FOOTER  -->
+
+ <footer>
+  <div class="container" >
+    <p>rahulkarki226@gmail.com</p>
+    <p>
+      <a href="https://www.linkedin.com/in/rahul-karki-463878250/">
+        <img src="/image/linkedin.png" href="" alt="">
+      </a>
+      <a href="https://github.com/rahulkarki226">
+        <img src="/image/github.png" href="" alt="">
+      </a>
+      <a href="https://www.instagram.com/rahulkarki226/">
+        <img src="/image/insta.png" href="" alt="">
+      </a>
+
+    </p>
+  </div>
+</footer>
+
+
+<!-- Optional JavaScript; choose one of the two! -->
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-q94+BZtLrkL1/ohfjR8c6L/A6qzNH9R" crossorigin="anonymous"></script>
+</body>
+</html>
